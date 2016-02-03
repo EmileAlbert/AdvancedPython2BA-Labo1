@@ -7,14 +7,14 @@ import utils
 
 class TestUtils(unittest.TestCase):
     def test_fact(self):
-        #Test échoue
+        #Test échoue a modifier 
         self.assertEqual(utils.fact(3),5)
-        #Test échoue
+        #Test échoue a modifier
         with self.assertRaises(ValueError):
             utils.fact(1)
     
     def test_roots(self):
-        #Test échoue
+        #Test échoue a modifier
         self.assertEqual(utils.roots(1,1,0),(4,1))
     
     '''def test_integrate(self):
