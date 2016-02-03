@@ -47,5 +47,3 @@ def roots(a, b, c):
     """'''
 
 
-
-print(roots(1,1,0))
