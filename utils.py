@@ -12,7 +12,9 @@ def fact(n):
     Post: Returns the factorial of 'n'.
     Throws: ValueError if n < 0
     """
-    if n<2:
+    if n < 0 :
+        raise ValueError
+    elif n<2:
         return 1
     else:
         return n*fact(n-1)
