@@ -17,7 +17,7 @@ def home():
                 <li> Calculate factorial of a number with <b>/fact/number</b></li>
                 <li> Computes the roots of the ax^2 + bx + x = 0 polynomial with <b>/roots/a/b/c</b></li>
             </ul>
-            And many more soon !
+            And maybe many more soon !
             '''
 
 @route('/sum/<a>/<b>')
